@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cont {
+  background-color: #150b3e;
+  border: 0px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+.profile-cont {
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-logo {
+  background-color: #c7d2fe;
+  border: 0px;
+  border-radius: 30px;
+  color: #7c3aed;
+  padding: 10px 20px 10px 20px;
+  margin-right: 20px;
+}
+.balance-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hed {
+  font-size: 24px;
+}
+.denomination-cont {
+  display: flex;
+
+  flex-wrap: wrap;
+}
